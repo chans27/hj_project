@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background: #F0D790
+}
+.nav_item {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.myphoto {
+  width: 730px;
+  height: auto;
+}
+.ABOUT {
+  width: 600px;
+  height: auto;
+}
+.NAME {
+  display: block;
+  margin: 0 auto;
+	width: 200px;
+}
+.PROJECT {
+  display: block;
+  margin: 0 auto;
+  width: 540px;
+  height: auto;
+}
+.CHARACTER {
+  display: block;
+  margin: 0 auto;
+  width: 620px;
+  height: auto;
+}
+.STORAGE {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+h2 {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.DONGMANMAIN {
+  width: 900px;
+  height: auto;
+}
+p {
+  text-align: center;
+}
+.DM1 {
+  text-align: inherit;
+}
+.DM2 {
+  text-align: inherit;
+}
+.instagramphoto {
+  width: 500px;
+  height: 500px;
+}
+.donationphoto {
+  width: 500px;
+  height: 500px;
+}
+.DMmain {
+  width: 800px;
+  height: 800px;
+}
+.myphoto {
+  display: block;
+  margin: 0 auto;
+}
+.aboutcontents {
+  background-image: url("../img/BBB.gif");
+background-size:contain;
+	background-position: center;
+}
+.aboutcontents {
+  background-repeat: no-repeat
+}
+.ABOUT {
+  margin-top: 80px
+	 
+}
+
+.projecttag {
+    text-align: center;
+}
+
+.projecttag img {
+    display: block;
+    margin: 0 auto;
+}
+
+.projectcontents {
+  background-image: url("../img/BBB2.gif");
+  background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.PROJECT {
+  margin-top: 90px
+	 
+}
+.dongmanmenu {
+	width: 300px;
+  height: 300px;
+}
+.projectcontents img {
+  max-width: 100%;
+  height: auto;
+}
+
+.foodplusmenu {
+	width: 300px;
+  height: 300px;
+}
+
+* {
+    outline: none !important;
+}
+.charactercontents {
+  background-image: url("../img/BBB2.gif");
+  background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.CHARACTER {
+  margin-top: 80px
+	 
+}
+
+.storagecontents {
+  background-image: url("../img/BBB4.gif");
+background-size:contain;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+.charactercontents img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.FFmain {
+  width: 900px;
+  height: auto;
+}
+.coming {width: 300px;
+  height: 300px;	
+}
+
+.popo {
+  width: 500px;
+  height: 500px;
+}
+
+.ttt {
+    text-align: center;
+}
+
+.dongmanmenu {
+    transition: transform 0.3s ease;
+}
+
+.dongmanmenu:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+
+.foodplusmenu {
+    transition: transform 0.3s ease;
+}
+
+.foodplusmenu:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+.yyy {
+    transition: transform 0.3s ease;
+}
+
+.yyy:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+
+/*-----------*/
+.card-container {
+    perspective: 1000px;
+    width: 800px; /* 이미지 크기에 맞게 조정 */
+    height: 800px; /* 이미지 크기에 맞게 조정 */
+    position: relative;
+    margin: 0 auto; /* 가운데 정렬을 위해 추가 */
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative; /* 앞면 이미지가 상대적으로 배치되도록 수정 */
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front-face, .back-face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back-face {
+    transform: rotateY(180deg);
+}
+
+.DMmain {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* 이미지가 자리를 차지하면서 비율을 유지하도록 변경 */
+}
+
+#DM {
+  margin-top: 250px;
+}
+
+#FOODPLUS {
+  margin-top: 250px;
+}
+.phototo {
+	padding-top: 0px;
+}

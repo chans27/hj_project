@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------------------------------------
+	メインビジュアル
+----------------------------------------*/
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/*----------------------------------------
+	モジュール　1カラム
+----------------------------------------*/
+.module_1col {
+  text-align: center;
+}
+
+/*----------------------------------------
+	モジュール　2カラム
+----------------------------------------*/
+.module_2col {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.module_2col div {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+/*----------------------------------------
+	モジュール　3カラム
+----------------------------------------*/
+.module_3col {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.module_3col div {
+  width: 32%;
+  margin-bottom: 20px;
+}
+
+/*----------------------------------------
+	モジュール　セクション背景に画像
+----------------------------------------*/
+#bg_image {
+	background: url("../img/main03.jpg") no-repeat center center;
+	background-size: contain;
+}
+
+/*----------------------------------------
+	モジュール　youtube
+----------------------------------------*/
+.youtube {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.youtube iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*----------------------------------------
+	モジュール　プロフィール
+----------------------------------------*/
+.profile_2col {
+  display: flex;
+  justify-content: flex-start;
+}
+.profile_2col .item_profile {
+  width: 40%;
+  text-align: center;
+}
+.profile_2col .sns_block {
+  display: flex;
+  justify-content: center;
+}
+.profile_2col .sns_block li {
+  padding: 5px;
+}
+.profile_2col .item_skill {
+  width: 60%;
+}
+
+/*----------------------------------------
+	モジュール　スライダー
+----------------------------------------*/
+.slider {
+  width: 70%;
+  margin: 100px auto;
+}
+.slick-slide {
+  margin: 0px 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  /*----------------------------------------
+	モジュール　1カラム
+----------------------------------------*/
+  .module_1col {
+    text-align: left;
+  }
+  /*----------------------------------------
+	モジュール　2カラム
+----------------------------------------*/
+  .module_2col {
+    display: block;
+  }
+  .module_2col div {
+    width: 100%;
+  }
+  /*----------------------------------------
+	モジュール　3カラム
+----------------------------------------*/
+  .module_3col {
+    display: block;
+  }
+  .module_3col div {
+    width: 100%;
+  }
+  /*----------------------------------------
+	モジュール　プロフィール
+----------------------------------------*/
+  .profile_2col {
+    display: block;
+  }
+  .profile_2col .item_profile {
+    width: 100%;
+    text-align: center;
+  }
+  .profile_2col .item_skill {
+    width: 100%;
+  }
+}
+
+
+
+
+
